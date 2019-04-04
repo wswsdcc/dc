@@ -1,1 +1,62 @@
-theme: jekyll-theme-cayman
+# Site Info
+title: Dong Chen's Blog
+tagline: 'Welcome to my blog!'
+baseurl: ""
+url: http://codinfox.github.io
+logo: '/public/logo.png'
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: Dong Chen
+  description: 一个不服输的女coder
+  gravatar: '/public/gravatar.jpg'
+  contact:
+    # linkedin:  <hide>
+    github:    https://github.com/wswsdcc
+    # facebook:  <hide>
+    # twitter:   <hide>
+    weixin:    
+    weibo:     https://weibo.com/u/1937081514
+    # email:     <hide>
+
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Blog:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:          
+    - '/about/'
+  Github Project: 
+    - 'https://github.com/wswsdcc'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/we_will_be_giants_by_yalestewart.jpg
+  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+
