@@ -1,7 +1,7 @@
 # Site Info
 title: Dong Chen's Blog
 tagline: 'Welcome to my blog!'
-baseurl: ""
+baseurl: "https://wswsdcc.github.io/dc.github.io/"
 url: http://codinfox.github.io
 logo: '/public/logo.png'
 
